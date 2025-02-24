@@ -1,5 +1,5 @@
-"use client";
-import React from "react";
+"use client";  
+import React, { useState, useEffect } from "react";  // ✅ Corrected import statement
 
 function ColorGrid({
   grid = [],
